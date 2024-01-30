@@ -47,12 +47,12 @@ const Button: React.FC<ButtonProps> = ({className}) => {
                     </Link>
                 </div>
                 <div className="lg:inline-block lg:ml-20">
-                    <Link href="/Projects/Projects">
+                    <Link href="/projects">
                         <button className={`button ${className || ''}`}>Projects</button>
                     </Link>
                 </div>
                 <div className="lg:inline-block lg:ml-20">
-                    <Link href="/ContactUs/ContactUs">
+                    <Link href="/contactUs">
                         <button className={`button ${className || ''}`}>Contact Us</button>
                     </Link>
                 </div>

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {FiMenu} from "react-icons/fi";
-import Logo from './Logo';
-import Button from './Button';
+import Logo from './logo';
+import Button from './button';
 
 
 const Navbar = () => {

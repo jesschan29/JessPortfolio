@@ -1,7 +1,7 @@
 import React, {useRef, useState, useEffect} from "react";
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Navbar from '../../Components/Navigation/Navbar';
+import Navbar from '../Components/Navigation/navbar';
 import Image from "next/image";
 import Link from "next/link";
 import Slider from 'react-slick';
@@ -11,9 +11,9 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import {Reveal} from '../../Components/utils/Reveal';
-import {Reveal2} from '../../Components/utils/Reveal2';
-import {Pop} from '../../Components/utils/Pop';
+import {Reveal} from '../Components/utils/Reveal';
+import {Reveal2} from '../Components/utils/Reveal2';
+import {Pop} from '../Components/utils/Pop';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 

@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Navbar from '../../Components/Navigation/Navbar';
+import Navbar from '../Components/Navigation/navbar';
 import Image from "next/image";
 import Link from "next/link";
-import {Reveal} from '../../Components/utils/Reveal';
-import {Reveal2} from '../../Components/utils/Reveal2';
-import {Pop} from '../../Components/utils/Pop';
+import {Reveal} from '../Components/utils/Reveal';
+import {Reveal2} from '../Components/utils/Reveal2';
+import {Pop} from '../Components/utils/Pop';
 
 const ContactUs: NextPage = () => {
     const [fullName, setFullName] = useState('');
