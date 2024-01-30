@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'skyblue': '#8dadc9',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -19,10 +22,11 @@ const config: Config = {
         'custom-blue': '#ceccd8',
         'custom-skyblue': '#8dadc9',
         'custom-skills': '#8a81a9',
+        'custom-darkblue': '#231942',
       },
       textColor: {
         'custom-header': '#231942',
-        'custom-newslink': '#6fa8ff',
+        'custom-link': '#123499',
       },
       fontSize: {
         'custom-small': '12px',
