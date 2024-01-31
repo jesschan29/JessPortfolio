@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Header from '../Components/header.jsx';
+import Header from '../pages/header.jsx';
 import Image from "next/image";
 import Link from "next/link";
 import {Reveal} from '../Components/utils/Reveal';
