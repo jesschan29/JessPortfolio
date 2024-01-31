@@ -157,7 +157,7 @@ const Projects: NextPage = () => {
 
                     <div className="flex-grow py-10 sm:py-20 lg:py-30 w-full">
                         <div className="relative transition-transform duration-1000">
-                            <div className="relative group rounded-3xl justify-center align-center bg-custom-blue mx-auto shadow-lg p-7 sm:p-12 w-3/4 h-3/4 sm:w-2/3 sm:h-2/3 transition-transform duration-500 ease-in-out hover:shadow-xl" style={{zIndex: 1}}>
+                            <div className="relative group rounded-3xl justify-center align-center bg-custom-blue mx-auto shadow-lg p-7 sm:p-12 w-3/4 h-3/4 sm:w-2/3 transition-transform duration-500 ease-in-out hover:shadow-xl" style={{zIndex: 1}}>
                                 <Reveal>
                                     <p className="text-2xl sm:text-3xl lg:text-3xl text-custom-header font-pureMilk transition-transform duration-500 ease-in-out">Projects&nbsp;&nbsp;</p>
                                 </Reveal>

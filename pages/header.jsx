@@ -22,8 +22,6 @@ export default function Header() {
                 font-size: 32px;
                 background-color: transparent;
                 font-weight: normal;
-                padding-left: 1.25rem;
-                padding-right: 1.25rem;
                 text-align: left;
                 font-family: "Just Bubble";
                 transition: transform 1s ease-in-out;
@@ -57,29 +55,35 @@ export default function Header() {
             }
 
             `}</style>
-            <nav className="max-w-[1566px] mx-auto h-[100px] flex justify-between items-center p-4">
+            <nav className="max-w-[1566px] mx-auto h-[90px] flex justify-between items-center p-4 border-b-2 border-white">
                 <div>
                     <Link href="/" onClick={handleSmallerScreensNav}>
-                        <span className="font-extrabold text-3xl md:text-2xl xl:text-3xl uppercase button">Jessica</span>
+                        <span className="lg:ml-4 md:ml-2 placeholder:font-extrabold text-3xl md:text-2xl xl:text-3xl uppercase button">Jessica</span>
                     </Link>
                 </div>
 
                 {/* LARGER SCREENS NAVIGATION*/}
-                <ul className="hidden md:flex uppercase font-semibold text-1xl lg:text-[20px] text-white">
-                    <li className="button">
-                        <Link href="/">Home</Link>
-                    </li>
-                </ul>
-                <ul className="hidden md:flex uppercase font-semibold text-1xl lg:text-[20px] text-white">
-                    <li className="button">
-                        <Link href="/projects">Projects</Link>
-                    </li>
-                </ul>
-                <ul className="hidden md:flex uppercase font-semibold text-1xl lg:text-[20px] text-white">
-                    <li className="button">
-                        <Link href="/contactUs">Contact Us</Link>
-                    </li>
-                </ul>
+                <div className="lg:inline-block lg:ml-48 md:ml-28">
+                    <ul className="hidden md:flex uppercase font-semibold text-1xl lg:text-[20px] text-white">
+                        <li className="button">
+                            <Link href="/">Home</Link>
+                        </li>
+                    </ul>
+                </div>
+                <div className="lg:inline-block">
+                    <ul className="hidden md:flex uppercase font-semibold text-1xl lg:text-[20px] text-white">
+                        <li className="button">
+                            <Link href="/projects">Projects</Link>
+                        </li>
+                    </ul>
+                </div>
+                <div className="lg:inline-block lg:mr-4 md:mr-2">
+                    <ul className="hidden md:flex uppercase font-semibold text-1xl lg:text-[20px] text-white">
+                        <li className="button">
+                            <Link href="/contactUs">Contact Us</Link>
+                        </li>
+                    </ul>
+                </div>
 
                 {/*SMALLER SCREENS NAV ICONS*/}
                 <div onClick={handleSmallerScreensNav} className="flex md:hidden">
@@ -92,9 +96,9 @@ export default function Header() {
 
                 {/*SMALLER SCREENS NAVBAR*/}
                 <div className = {menuIcon ?
-                    ('md:hidden absolute top-[100px] right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen bg-custom-skyblue text-white text-center ease-in-out duration-300')
+                    ('md:hidden absolute top-[89px] right-0 left-0 flex justify-center items-center w-full h-50vh bg-custom-skyblue text-white text-center ease-in-out duration-1000 border-b-2 border-white')
                     :
-                    ('md:hidden absolute top-[100px] right-0 left-[-100%] flex justify-center items-center w-full h-screen bg-custom-skyblue text-white text-center ease-in duration-300')
+                    ('md:hidden absolute top-[89px] right-0 left-[-100%] flex justify-center items-center w-full h-70vh bg-custom-skyblue text-white text-center ease-in duration-1000 border-b-2 border-white')
                 }>
                     {/*SMALLER SCREEN NAVBAR LINKS*/}
                     <div className="w-full">
