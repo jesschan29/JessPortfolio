@@ -33,7 +33,8 @@ export const Pop = ({children, width}: Props) => {
             <motion.div
                 variants={childrenVariant}
                 initial="hidden"
-                animate={mainControls}>
+                animate={mainControls}
+                transition={{duration: 0.5, delay: 1}}>
                     {children}
             </motion.div>
         </div>

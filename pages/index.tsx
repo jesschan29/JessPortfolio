@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import Navbar from '../Components/Navigation/navbar';
+import Header from '../Components/header';
 import React, {useEffect, useState} from 'react';
 import Link from "next/link";
 import Slider from 'react-slick';
@@ -135,8 +135,8 @@ const Home: NextPage = () => {
         }
 
       `}</style>
-      <Navbar>
-      </Navbar>
+      <Header>
+      </Header>
 
       <div className="flex grow px-8">
           <Head>

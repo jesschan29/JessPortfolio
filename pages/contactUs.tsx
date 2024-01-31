@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Navbar from '../Components/Navigation/navbar';
+import Header from '../Components/header';
 import Image from "next/image";
 import Link from "next/link";
 import {Reveal} from '../Components/utils/Reveal';
@@ -126,8 +126,7 @@ const ContactUs: NextPage = () => {
             }
 
             `}</style>
-            <Navbar>
-            </Navbar>
+            <Header></Header>
             <div className="flex grow px-8">
                 <Head>
                     <title>Contact Us</title>

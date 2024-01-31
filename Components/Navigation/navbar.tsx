@@ -32,6 +32,9 @@ const Navbar = () => {
                     <div className="hidden lg:flex">
                         <Button className="text-white"/>
                     </div>
+                    <a className="" href="">
+                        hihi
+                    </a>
                 </div>
             </div>
         </div>

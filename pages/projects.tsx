@@ -1,7 +1,7 @@
 import React, {useRef, useState, useEffect} from "react";
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Navbar from '../Components/Navigation/navbar';
+import Header from '../Components/header';
 import Image from "next/image";
 import Link from "next/link";
 import Slider from 'react-slick';
@@ -89,8 +89,7 @@ const Projects: NextPage = () => {
                 animation-delay: 5s;
                 }
         `}</style>
-        <Navbar>
-        </Navbar>
+        <Header></Header>
         <div className="flex grow px-8">
             <Head>
                 <title>Projects</title>
