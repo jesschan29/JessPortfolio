@@ -96,9 +96,9 @@ export default function Header() {
 
                 {/*SMALLER SCREENS NAVBAR*/}
                 <div className = {menuIcon ?
-                    ('md:hidden absolute top-[89px] right-0 left-0 flex justify-center items-center w-full h-50vh bg-custom-skyblue text-white text-center ease-in-out duration-1000 border-b-2 border-white')
+                    ('md:hidden absolute top-[89px] right-0 left-0 flex justify-center items-center w-full h-50vh text-white text-center ease-in-out duration-1000 border-b-2 border-white bg-gradient-to-br from-skyblue via-[#c0bcbc] to-skyblue')
                     :
-                    ('md:hidden absolute top-[89px] right-0 left-[-100%] flex justify-center items-center w-full h-70vh bg-custom-skyblue text-white text-center ease-in duration-1000 border-b-2 border-white')
+                    ('md:hidden absolute top-[89px] right-0 left-[-100%] flex justify-center items-center w-full h-70vh text-white text-center ease-in duration-1000 border-b-2 border-white bg-gradient-to-br from-skyblue via-[#c0bcbc] to-skyblue')
                 }>
                     {/*SMALLER SCREEN NAVBAR LINKS*/}
                     <div className="w-full">
